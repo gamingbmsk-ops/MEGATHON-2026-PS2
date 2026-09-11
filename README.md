@@ -140,6 +140,9 @@ python live_rescue_web_app.py
 
 - Ultralytics YOLOv8: https://docs.ultralytics.com/
 - PyTorch: https://pytorch.org/
+  ## 8) RESULTS :
+  <img width="1743" height="921" alt="image" src="https://github.com/user-attachments/assets/cdcecf06-0a5f-4b06-bba5-54667a683a78" />
+
 
 ## License
 
