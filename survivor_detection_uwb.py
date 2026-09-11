@@ -1,26 +1,4 @@
-# ==============================================================
-# PATCH NOTES (added by Claude):
-#   - UWB (Ultra-Wideband) close-range confirmation: config,
-#     load_uwb/match_uwb, track-record field, priority-score
-#     weight/term, main-loop matching, dashboard/on-screen text,
-#     GeoJSON property, and map popup line.
-#   - Offline queue: GeoJSON save now falls back to a local
-#     offline_queue.json file if the write fails.
-#   - Optional evaluate_detections() helper for IoU-based
-#     recall / false-positive checks against your own ground
-#     truth boxes (not wired into the pipeline automatically).
-# ==============================================================
 
-# ADVANCED DRONE SURVIVOR DETECTION SYSTEM
-# JUPYTER-SAFE COMPLETE VERSION
-#
-# IMPORTANT:
-# - Do NOT paste telemetry CSV rows directly into this Python file.
-# - Example telemetry belongs inside telemetry.csv.
-# - This version does NOT use cv2.imshow(), cv2.waitKey(), or
-#   cv2.destroyAllWindows(), so it works in Jupyter environments
-#   where OpenCV HighGUI is unavailable.
-# ==============================================================
 
 import os
 import cv2
